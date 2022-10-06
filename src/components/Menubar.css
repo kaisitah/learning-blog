@@ -1,0 +1,9 @@
+.Menubar {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.Menubar h1 {
+    align-self: center;
+}
