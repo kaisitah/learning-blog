@@ -3,7 +3,7 @@ const Post = (props) => {
         <div>
             <h2>{props.title}</h2>
             <p className="post-time">{props.timestamp}</p>
-            {props.children}
+            {props.content}
         </div>
     );
 }
