@@ -7,12 +7,14 @@ h1 {
   margin: 2em;
 }
 h2 {
+  margin-left: 1em;
   margin-top:0;
 }
 
 p {
   font-size: 15px;
   color: rgb(70, 100, 210);
+  margin: 2em;
 }
 img {
   width: 300px;

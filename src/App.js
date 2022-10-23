@@ -12,7 +12,7 @@ function App() {
         <Button />
         <Searchbar />
       </Menubar> 
-      <p>This is a blog about my journey of learning to code</p>
+      <p><strong>This is a blog about my journey of learning to code</strong></p>
       {posts.map(post =>
         <Post 
           key={post.id}
