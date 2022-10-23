@@ -1,6 +1,6 @@
 export const posts = [
   {
-    id: 0,
+    id: "1-first-post",
     title: "First post",
     timestamp: "2022-08-05",
     content: (
@@ -28,7 +28,7 @@ export const posts = [
     ),
   },
   {
-    id: 1,
+    id: "2-second-post",
     title: "Second post",
     timestamp: "2022-08-08",
     content: (
@@ -55,7 +55,7 @@ export const posts = [
     ),
   },
   {
-    id: 2,
+    id: "3-going-live",
     title: "Going Live: Publishing my blog on GitHub Pages",
     timestamp: "2022-08-28",
     content: (
@@ -88,12 +88,12 @@ export const posts = [
     ),
   },
   {
-    id: 3,
+    id: "4-learn-theory",
     title: "Learn programming theory",
     timestamp: "2022-09-04",
     content: (
       <>
-        <figure class="image">
+        <figure className="image">
           <a href="https://commons.wikimedia.org/wiki/File:Zone_of_proximal_development.svg#/media/File:Zone_of_proximal_development.svg">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Zone_of_proximal_development.svg/1200px-Zone_of_proximal_development.svg.png"
