@@ -64,7 +64,7 @@ export const posts = [
           I needed to have a break in my programming exercises because of
           getting ill and starting at a new job. Luckily my new job is related
           to programming, so I didn't forget everything I had learned before the
-          break!
+          break.
         </p>
         <p>
           Finally I had time to try something really exciting: publish a webpage
@@ -78,7 +78,7 @@ export const posts = [
         <p>
           I must say that the work I did with indenting the code really paid
           off: Now it's much easier to keep writing the blog and polish the
-          style of the website. Another note about structure. The usage of
+          styles of the website. Another note about structure. The usage of
           &lt;div&gt; element is still a bit blurry for me, but I came up with
           one clear way of using it: I added some structure to my blog by
           defining each of the posts as a separate{" "}
@@ -142,6 +142,50 @@ export const posts = [
           HTML and CSS. I had good guidance from learning materials and socially
           from my co-trainer if I struggled to understand something or got
           stuck.
+        </p>
+      </>
+    ),
+  },
+  {
+    id: "5-create-react-app",
+    title: "Create React App",
+    timestamp: "2022-10-23",
+    content: (
+      <>
+        <p>
+          During the past month I've been learning JSX and React on top of JS,
+          HTML and CSS. As learning materials I have used{" "}
+          <a href="https://beta.reactjs.org/learn">React Docs Beta</a> and the
+          Codecademy course{" "}
+          <a href="https://www.codecademy.com/learn/react-101">"Learn React"</a>
+          . I started creating function components, so I mostly skipped the
+          parts concerning class components. There is still a lot to learn,
+          especially about hooks and props.
+        </p>
+        <p>
+          To get some hands-on practice of React, I have started building two
+          React apps utilizing create-react-app. One project is this blog: I
+          converted my HTML page into a React app and re-created the blog using
+          components. I also added some interactive elements like a searchbar
+          and a button for submitting the search text. Just today I moved the
+          blog posts into a separate data file.
+        </p>
+        <p>
+          The other project is a simple webpage where you choose your favourite
+          colour of six options, and the colour of a text changes accordingly.
+          Furthermore, there is a timer calculating how many seconds you use to
+          choose the colour. I built the app to practise event handlers,
+          useState and useEffect. The project started when I was playing with an
+          example on W3schools, which I was checking because of the course I'm
+          currently running.
+        </p>
+        <p>
+          Maybe the most exciting moment this week was when I deployed my
+          project! Yesterday I and my co-trainer tested deployment to GitHub
+          Pages. It took quite some time to study the process and put together
+          the yaml file for build and deployment. But it paid off and now you
+          can see my first React app in action{" "}
+          <a href="https://kaisitah.github.io/favorite-color-app/">here</a>! \o/
         </p>
       </>
     ),
