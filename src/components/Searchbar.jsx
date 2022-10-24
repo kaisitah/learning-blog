@@ -14,7 +14,7 @@ const Searchbar = (props) => {
                 value={searchText}
                 placeholder='Type here to search'
             />
-            <p>No results were found for {searchText}</p>    
+            <p>No results were found for "{searchText}"</p>    
         </div>
     );
 } 
