@@ -4,8 +4,8 @@ const Button = (props) => {
         //alert("The button was clicked!");
     }
     return (
-        <button className='Button' onClick={handleClick}>Search</button>
-    )
+        <button className="Button" onClick={handleClick}>Search</button>
+    );
 }
 
 export default Button;
