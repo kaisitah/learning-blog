@@ -22,7 +22,6 @@ const LandingPage = (props) => {
       <ContentsTable />
       <h3>Leave a comment</h3>
       <CommentForm />
-      <Button>Send comment</Button>
       <h3>Previous comments</h3>
       <Comments />
     </div>
